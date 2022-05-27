@@ -1,0 +1,18 @@
+{
+  "name": "sts",
+  "version": "1.0.0",
+  "scripts": {
+    "spago": "spago",
+    "format": "purs-tidy format-in-place src test",
+    "start": "spago run",
+    "test": "spago test"
+  },
+  "keywords": [],
+  "author": "Samuel Ytterbrink",
+  "license": "MIT",
+  "devDependencies": {
+    "purescript": "^0.15.2",
+    "purs-tidy": "^0.9.0",
+    "spago": "^0.20.9"
+  }
+}
